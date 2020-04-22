@@ -17,7 +17,7 @@
 ## Keyhole Virus Tracker Full Stack Setup
 
 #### Setup Steps
-1. Set up and run Byzantine Hyperledger Fabric:  https://github.com/in-the-keyhole/keyhole-virus-tracker
+1. Set up and run Keyhole Virus Tracker Hyperledger Fabric:  https://github.com/in-the-keyhole/keyhole-virus-tracker
 
     
     - This project implements a HyperLedger blockchain network with chaincode that manages a ledger of Influenza tests. The chaincode implements functions to create and retrieve Influenza test results.
