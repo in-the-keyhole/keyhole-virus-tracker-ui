@@ -1,0 +1,14 @@
+{
+  "root": "build/",
+  "proxies": {
+    "/api/": {
+      "origin": "${API_URL}/api"
+    },
+    "/socket.io": {
+      "origin": "${API_URL}/socket.io"
+    }
+  },
+  "routes": {
+    "/**": "index.html"
+  }
+}
