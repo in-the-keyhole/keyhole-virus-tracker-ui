@@ -1,9 +1,9 @@
-# Hyperledger Blockchain UI Example
+# Hyperledger Blockchain Virus Tracker UI 
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Byzantine Flu Full Stack Setup](#byzantine-flu-full-stack-setup)
+- [Byzantine Flu Full Stack Setup](#keyhole-virus-tracker-full-stack-setup)
 - [Project Setup](#project-setup)
 - [Available Scripts](#available-scripts)
   - [`npm start`](#npm-start)
@@ -14,10 +14,10 @@
 
 
 ----
-## Byzantine Flu Full Stack Setup
+## Keyhole Virus Tracker Full Stack Setup
 
 #### Setup Steps
-1. Set up and run Byzantine Hyperledger Fabric:  https://github.com/in-the-keyhole/byzantine-flu
+1. Set up and run Byzantine Hyperledger Fabric:  https://github.com/in-the-keyhole/keyhole-virus-tracker
 
     
     - This project implements a HyperLedger blockchain network with chaincode that manages a ledger of Influenza tests. The chaincode implements functions to create and retrieve Influenza test results.
