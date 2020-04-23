@@ -37,7 +37,7 @@ class LabResults extends Component {
 
         this.state = { 
             source: '',
-            dob: '', 
+            age: '', 
             dateTime: moment(), 
 			gender: 'Male', 
             testType: 'RIDT', 
@@ -76,7 +76,7 @@ class LabResults extends Component {
                 fnc: 'createLab',
                 channelid: this.props.virusType === VirusTypes.Influenza ? Channels.Influenza : Channels.Covid19,
                 chaincodeid: 'lab',
-                args: [self.state.gender, self.state.dob, self.state.city, self.state.county, self.state.state, self.state.testType, self.state.result, self.state.dateTime.toString(), self.state.source, self.state.status]
+                args: [self.state.gender, self.state.age, self.state.city, self.state.county, self.state.state, self.state.testType, self.state.result, self.state.dateTime.toString(), self.state.source, self.state.status]
             }
 
 
@@ -175,7 +175,7 @@ class LabResults extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12"><h1>Create Influenza Lab Result</h1></div>
+                    <div className="col-md-12"><h1>Create Lab Result</h1></div>
                 </div>
 
                 <div className="row">
@@ -207,7 +207,7 @@ class LabResults extends Component {
                             </div>
 
                             <div className="form-group">
-                                <label>Gender: 	</label>
+                                <label>Anotomical Gender: 	</label>
 							  {/*<input name="gender" id="gender" className="form-control" type="text" value={this.state.gender} onChange={this.handleInputChange} placeholder="gender" /> */}
 								  <select name="gender" id="gender" className="form-control" value={this.state.gender} onChange={this.handleInputChange}>
 									<option value="Male">Male</option>
@@ -216,9 +216,9 @@ class LabResults extends Component {
                             </div>
 
                             <div className="form-group">
-                                <label>Date of Birth:</label>
-                                {/*<input name="age" id="age" className="form-control" type="text" value={this.state.age} onChange={this.handleInputChange} placeholder="age" />*/}
-                                <input name="dob" id="dob" className="form-control" type="date"  value={this.state.age} onChange={this.handleInputChange} placeholder="mm/dd/yyyy" />
+                                <label>Age:</label>
+                                 <input name="age" id="age" className="form-control" type="text" value={this.state.age} onChange={this.handleInputChange} placeholder="age" />
+                               {/* <input name="dob" id="dob" className="form-control" type="date"  value={this.state.age} onChange={this.handleInputChange} placeholder="mm/dd/yyyy" /> */}
                             </div>
 
                             <div className="form-group">

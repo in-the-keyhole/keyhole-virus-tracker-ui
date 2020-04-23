@@ -84,13 +84,13 @@ class LabResults extends Component {
             Header: 'Date/Time',
             accessor: 'DateTime' // String-based value accessors!
         }, {
-            Header: 'Gender',
+            Header: 'Anotomical Gender',
             accessor: 'gender',
             //Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
         }, 
         {    
-            Header: 'DOB',
-            accessor: 'dob'
+            Header: 'Age',
+            accessor: 'age'
         
         },
            
