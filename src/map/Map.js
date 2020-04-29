@@ -428,7 +428,7 @@ class ResultsMap extends Component {
     }
 
     function sortByDate(a, b) {
-      return b.Record.DateTime - a.Record.DateTime;
+      return new Date(a.Record.DateTime) - new Date(b.Record.DateTime);
     }
 
     function parseChartData(input) {

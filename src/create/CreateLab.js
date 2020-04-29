@@ -216,9 +216,22 @@ class LabResults extends Component {
                             </div>
 
                             <div className="form-group">
-                                <label>Age:</label>
-                                 <input name="age" id="age" className="form-control" type="text" value={this.state.age} onChange={this.handleInputChange} placeholder="age" />
+                                <label>Age Range:</label>
+                               {/* <input name="age" id="age" className="form-control" type="text" value={this.state.age} onChange={this.handleInputChange} placeholder="age" /> */}
                                {/* <input name="dob" id="dob" className="form-control" type="date"  value={this.state.age} onChange={this.handleInputChange} placeholder="mm/dd/yyyy" /> */}
+                               <select name="age" id="age" className="form-control" value={this.state.gender} onChange={this.handleInputChange}>
+									<option value="0-9">0-9</option>
+									<option value="10-19">10-19</option>
+                                    <option value="20-29">20-29</option>
+                                    <option value="30-39">30-39</option>
+                                    <option value="40-49">40-49</option>
+                                    <option value="50-59">50-59</option>
+                                    <option value="60-69">60-69</option>
+                                    <option value="70-79">70-79</option>
+                                    <option value="80-89">80-89</option>
+                                    <option value="90+">90+</option>
+							   </select> 
+                           
                             </div>
 
                             <div className="form-group">
