@@ -1,8 +1,11 @@
 # Hyperledger Blockchain Virus Tracker UI 
 
+This contains the ReactJS UI client for the Keyhole Virus Tracker, a Hyperledger Fabric blockchain implementation for tracking virus lab test results.
+
+> The blockchain implementation this repository interacts with is described in detail in this recent free white paper: [Tracking Lab Results Better With Blockchain Technology](https://keyholesoftware.com/company/creations/white-papers/blockchain-virus-tracker/) (and why it's a better solution for this use case than a traditional data sharing model).
+
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Byzantine Flu Full Stack Setup](#keyhole-virus-tracker-full-stack-setup)
 - [Project Setup](#project-setup)
 - [Available Scripts](#available-scripts)
@@ -36,9 +39,9 @@
 
 ## Project Setup
 
-Run `npm install` in the project folder to install the dependencies.<br>
-Execute `npm start` to launch the UI.<br>
-The UI is proxying `/api` requests to http:localhost:4000 using webpack-dev-server. To change the proxy port, edit the proxy in the package.json.
+1. Run `npm install` in the project folder to install the dependencies.<br>
+2. Execute `npm start` to launch the UI.<br>
+3. The UI is proxying `/api` requests to http:localhost:4000 using webpack-dev-server. To change the proxy port, edit the proxy in the package.json.
 
 ## Available Scripts
 
