@@ -5,7 +5,7 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "@types/lodash": "^4.14.73",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.17.2",
     "chart.js": "^2.9.3",
     "connect-busboy": "0.0.2",
