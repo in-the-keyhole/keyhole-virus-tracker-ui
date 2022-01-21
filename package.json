@@ -23,7 +23,7 @@
     "jsonwebtoken": "^8.4.0",
     "leaflet": "^1.4.0",
     "lodash": "^4.17.15",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "moment": "^2.24.0",
     "mongodb": "^2.2.29",
     "mongoose": "^4.11.1",
